@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ana Sofía Morningstar</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Ana Sofía <span>Morningstar</span></div>
+        <nav id="navMenu">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobreMi">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="menu-btn" id="menuBtn">☰</div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Ana Sofía <span>Morningstar</span></h1>
+            <p>Bienvenida a mi espacio personal en la web.</p>
+            <a href="#sobreMi" class="btn">Conóceme</a>
+        </div>
+    </section>
+
+    <!-- Sobre Mi -->
+    <section id="sobreMi" class="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>
+            Soy desarrolladora web apasionada por crear experiencias únicas y atractivas. 
+            Aquí encontrarás algunos de mis proyectos más destacados y mi forma de trabajar.
+        </p>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos">
+        <h2>Mis Proyectos</h2>
+        <div class="grid" id="proyectosGrid">
+            <!-- Proyectos cargados desde MongoDB -->
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" placeholder="Tu nombre" required />
+            <input type="email" placeholder="Tu correo" required />
+            <textarea placeholder="Tu mensaje" required></textarea>
+            <button class="btn" type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 anasofiamorningstar.com — Todos los derechos reservados
+    </footer>
+
+</body>
+</html>
